@@ -1,0 +1,19 @@
+#+TITLE:Selman ULUĞ
+#+OPTIONS: num:nil
+#+SETUPFILE: theme-readtheorg-local.setup
+
+* Publish                                                          :noexport:
+#+BEGIN_SRC emacs-lisp :results silent
+  (setq-local org-publish-project-alist
+              (append
+               ;; reporter
+               '(("blog"
+                  :base-directory "~/Org/blog"
+                  :publishing-directory "~/Org/blog"
+                  :publishing-function org-html-publish-to-html
+                  :exclude "README.org"
+                  :recursive t
+                  )) org-publish-project-alist))
+#+END_SRC
+
+* About Me

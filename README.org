@@ -1,4 +1,3 @@
 * selman.github.io
-*Selman ULUĞ Homepage & Blog*
-Files generated from _Org_ branch.
-[[https://github.com/fniessen/org-html-themes][org-html-themes]] *powered*
+- *Selman ULUĞ Homepage & Blog*
+- [[https://github.com/fniessen/org-html-themes][org-html-themes]] *powered*
